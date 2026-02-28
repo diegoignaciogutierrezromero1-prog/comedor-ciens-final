@@ -1,6 +1,16 @@
 # Comedor Ciens UCV - Sistema de Gestión de Comedor Universitario (SGCU)
 
-**Resumen del Proyecto**
+    Funcionalidades Principales
+* **Gestión de Usuarios:** Registro y login de estudiantes y personal.
+* **Monedero Virtual:** Sistema de recarga y cobro de bandejas mediante saldo.
+* **Control de Menú e Ingredientes:** Administración de los platos del día y lo que hay en almacén.
+* **Persistencia en JSON:** Los datos se guardan en archivos JSON dentro de la carpeta `Database`.
+
+##  Tecnologías utilizadas
+* **Lenguaje:** Java 17
+* **Interfaz Gráfica:** Java Swing
+* **Gestor de Proyectos:** Maven
+* **Librerías:** Jackson (manejo de JSON)
 
 - **Nombre:**  Comedor UCV (SGCU)
 - **Tipo:** Aplicación de escritorio Java (Swing)
@@ -23,7 +33,7 @@
 - **Database (persistencia simple):** `src/Database/` — ficheros JSON que actúan como almacenamiento (ej.: `Database/Food/foods.json`).
 - **Utils / View / Testing** — utilidades, componentes de interfaz y pruebas de ejemplo.
 
-**Cómo funciona (flujo básico)**
+Cómo funciona 
 
 1. Al iniciar (`mvn exec:java` o ejecutar `Main`), se abre la pantalla de login (`LoginView`).
 2. `LoginController` valida credenciales contra los ficheros en `Database/User/` y crea una `UserSession`.
@@ -38,8 +48,7 @@ mvn exec:java
 # o, para lanzar explícitamente la clase principal
 mvn exec:java -Dexec.mainClass="Main"
 ```
-
-Nota: Maven está configurado para usar `src` como `sourceDirectory` y Java 17 en el plugin de compilación ([pom.xml](pom.xml)).
+.
 
 **Puntos clave detectados en el análisis**
 
@@ -54,38 +63,32 @@ Nota: Maven está configurado para usar `src` como `sourceDirectory` y Java 17 e
   - Java 17 (JDK 17) instalado.
   - Maven 3.8+.
 
-2. Clonar y preparar
+ Clonar y preparar
   - `git clone <repo>`
   - `cd <repo>`
   - Revisar `pom.xml` y `src` para confirmar rutas.
 
-3. Construir y ejecutar
+ Construir y ejecutar
   - `mvn clean install`
   - `mvn exec:java` (o `mvn exec:java -Dexec.mainClass="Main"` si es necesario)
 
-4. Verificación básica
+ Verificación básica
   - Iniciar sesión con datos de `Database/User/users.json` (crear si no existen).
   - Probar flujo: login → recarga monedero → consumir bandeja → ver actualización de JSON.
 
-5. Opciones de evolución (siguientes iteraciones)
-  - Reemplazar almacenamiento JSON por una base de datos ligera (SQLite o PostgreSQL).
-  - Separar la UI en una aplicación web (React/Vue) y exponer una API REST en Java (Spring Boot).
-  - Añadir pruebas unitarias automáticas y CI (GitHub Actions) ejecutando `mvn test`.
-  - Implementar migraciones de datos y backups para los JSON actuales.
 
-**Checklist para replicar con éxito (mínimo viable)**
+-  Tener JDK 17 + Maven instalados.
+- Verificar que `Database/` contiene ficheros JSON (usuarios, menus, wallets).
+-  Ejecutar `mvn exec:java` y comprobar que la GUI arranca.
 
-- [ ] Tener JDK 17 + Maven instalados.
-- [ ] Verificar que `Database/` contiene ficheros JSON (usuarios, menus, wallets).
-- [ ] Ejecutar `mvn exec:java` y comprobar que la GUI arranca.
+Caso de prueba para administrador:
 
-**Siguientes pasos sugeridos**
+usuario: admin
+contraseña: admin123
 
-- Si quieres, puedo:
-  - Ejecutar pruebas unitarias locales y devolver resultados.
-  - Añadir instrucciones específicas para crear usuarios de prueba en `Database/User/users.json`.
-  - Preparar un pequeño script para migrar JSON → SQLite como proof-of-concept.
+Caso de prueba para estudiante:
 
----
+usuario: estudiante
+contraseña: estudiante123
 
-Si quieres que guarde este `README.md` directamente en el repositorio, dime y lo aplico (ya preparado). ¿Qué prefieres que haga ahora: ejecutar tests, añadir ejemplos de usuarios, o aplicar este README? 
+
