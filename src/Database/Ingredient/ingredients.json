@@ -1,0 +1,46 @@
+[ {
+  "id" : "ing-001",
+  "name" : "Arroz",
+  "description" : "Arroz blanco grano largo",
+  "unit" : "kg",
+  "stock" : 50.0,
+  "minStock" : 10.0,
+  "costPerUnit" : 2.5,
+  "active" : true
+}, {
+  "id" : "ing-002",
+  "name" : "Pollo",
+  "description" : "Pollo fresco",
+  "unit" : "kg",
+  "stock" : 30.0,
+  "minStock" : 5.0,
+  "costPerUnit" : 8.0,
+  "active" : true
+}, {
+  "id" : "ing-003",
+  "name" : "Naranja",
+  "description" : "Naranjas para jugo",
+  "unit" : "kg",
+  "stock" : 20.0,
+  "minStock" : 5.0,
+  "costPerUnit" : 3.0,
+  "active" : true
+}, {
+  "id" : "4e06385d-07b0-4435-8b47-bb2e45984ce4",
+  "name" : "Arroz",
+  "description" : "Arroz blanco grano largo",
+  "unit" : "kg",
+  "stock" : 50.0,
+  "minStock" : 10.0,
+  "costPerUnit" : 2.5,
+  "active" : true
+}, {
+  "id" : "1425d652-05d9-4bd6-854a-76d983f9ac8e",
+  "name" : "pasta linguini",
+  "description" : "pasta larga linguini",
+  "unit" : "kg",
+  "stock" : 10.0,
+  "minStock" : 3.0,
+  "costPerUnit" : 1.8,
+  "active" : true
+} ]

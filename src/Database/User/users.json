@@ -1,0 +1,33 @@
+[ {
+  "id" : "admin-001",
+  "username" : "admin",
+  "password" : "admin123",
+  "name" : "Administrador del Sistema",
+  "role" : "admin",
+  "email" : "admin@ciens.ucv.ve",
+  "active" : true
+}, {
+  "id" : "student-001",
+  "username" : "estudiante",
+  "password" : "estudiante123",
+  "name" : "Juan Pérez",
+  "role" : "student",
+  "email" : "juan.perez@ciens.ucv.ve",
+  "active" : true
+}, {
+  "id" : "staff-001",
+  "username" : "personal",
+  "password" : "personal123",
+  "name" : "María González",
+  "role" : "staff",
+  "email" : "maria.gonzalez@ciens.ucv.ve",
+  "active" : true
+}, {
+  "id" : "534aec57-2078-4aee-bea4-3992be20db9e",
+  "username" : "test",
+  "password" : "123456",
+  "name" : "testing",
+  "role" : "student",
+  "email" : "test@gmail.com",
+  "active" : true
+} ]

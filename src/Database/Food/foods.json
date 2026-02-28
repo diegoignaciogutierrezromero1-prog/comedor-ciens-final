@@ -1,0 +1,97 @@
+[ {
+  "id" : "food-002",
+  "name" : "Ensalada Mixta",
+  "description" : "Ensalada fresca con vegetales de temporada",
+  "category" : "guarnicion",
+  "price" : 8.0,
+  "available" : true,
+  "calories" : 120
+}, {
+  "id" : "food-003",
+  "name" : "Jugo de Naranja",
+  "description" : "Jugo natural de naranja",
+  "category" : "bebida",
+  "price" : 5.0,
+  "available" : true,
+  "calories" : 80
+}, {
+  "id" : "food-004",
+  "name" : "Flan de Huevo",
+  "description" : "Postre tradicional de flan",
+  "category" : "postre",
+  "price" : 6.0,
+  "available" : true,
+  "calories" : 200
+}, {
+  "id" : "food-005",
+  "name" : "Pasta Vegetariana",
+  "description" : "Pasta con salsa de vegetales frescos",
+  "category" : "plato_principal",
+  "price" : 18.0,
+  "available" : true,
+  "calories" : 380
+}, {
+  "id" : "food-006",
+  "name" : "Verduras al Vapor",
+  "description" : "Mix de verduras frescas al vapor",
+  "category" : "guarnicion",
+  "price" : 7.0,
+  "available" : true,
+  "calories" : 90
+}, {
+  "id" : "food-007",
+  "name" : "Té Helado de Limón",
+  "description" : "Bebida refrescante natural",
+  "category" : "bebida",
+  "price" : 4.0,
+  "available" : true,
+  "calories" : 60
+}, {
+  "id" : "food-008",
+  "name" : "Fruta Fresca",
+  "description" : "Mix de frutas de temporada",
+  "category" : "postre",
+  "price" : 5.0,
+  "available" : true,
+  "calories" : 100
+}, {
+  "id" : "food-009",
+  "name" : "Lomo de Res",
+  "description" : "Corte premium de lomo con salsa especial",
+  "category" : "plato_principal",
+  "price" : 28.0,
+  "available" : true,
+  "calories" : 520
+}, {
+  "id" : "food-010",
+  "name" : "Puré de Papas",
+  "description" : "Puré cremoso con hierbas aromáticas",
+  "category" : "guarnicion",
+  "price" : 9.0,
+  "available" : true,
+  "calories" : 180
+}, {
+  "id" : "food-011",
+  "name" : "Vino Tinto",
+  "description" : "Vino seleccionado por el chef",
+  "category" : "bebida",
+  "price" : 12.0,
+  "available" : true,
+  "calories" : 120
+}, {
+  "id" : "food-012",
+  "name" : "Tiramisú",
+  "description" : "Postre italiano tradicional",
+  "category" : "postre",
+  "price" : 8.0,
+  "available" : true,
+  "calories" : 280
+}, {
+  "id" : "food-001",
+  "name" : "Arroz con Pollo",
+  "description" : "Arroz blanco con pollo guisado",
+  "category" : "plato_principal",
+  "price" : 15.0,
+  "available" : true,
+  "calories" : 450
+} ]
